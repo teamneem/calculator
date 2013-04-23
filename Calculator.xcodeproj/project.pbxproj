@@ -23,6 +23,7 @@
 		5A3C24BD17218AE00007022F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A3C249817218AE00007022F /* Foundation.framework */; };
 		5A3C24C517218AE00007022F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5A3C24C317218AE00007022F /* InfoPlist.strings */; };
 		5A3C24C817218AE00007022F /* CalculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A3C24C717218AE00007022F /* CalculatorTests.m */; };
+		5A3C24D317219EA00007022F /* CalculatorBrain.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A3C24D217219EA00007022F /* CalculatorBrain.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,8 @@
 		5A3C24C417218AE00007022F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5A3C24C617218AE00007022F /* CalculatorTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CalculatorTests.h; sourceTree = "<group>"; };
 		5A3C24C717218AE00007022F /* CalculatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalculatorTests.m; sourceTree = "<group>"; };
+		5A3C24D117219EA00007022F /* CalculatorBrain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalculatorBrain.h; sourceTree = "<group>"; };
+		5A3C24D217219EA00007022F /* CalculatorBrain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalculatorBrain.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +123,8 @@
 				5A3C24A517218AE00007022F /* CalculatorAppDelegate.h */,
 				5A3C24A617218AE00007022F /* CalculatorAppDelegate.m */,
 				5A3C24AE17218AE00007022F /* MainStoryboard.storyboard */,
+				5A3C24D117219EA00007022F /* CalculatorBrain.h */,
+				5A3C24D217219EA00007022F /* CalculatorBrain.m */,
 				5A3C24B117218AE00007022F /* CalculatorViewController.h */,
 				5A3C24B217218AE00007022F /* CalculatorViewController.m */,
 				5A3C249D17218AE00007022F /* Supporting Files */,
@@ -274,6 +279,7 @@
 				5A3C24A317218AE00007022F /* main.m in Sources */,
 				5A3C24A717218AE00007022F /* CalculatorAppDelegate.m in Sources */,
 				5A3C24B317218AE00007022F /* CalculatorViewController.m in Sources */,
+				5A3C24D317219EA00007022F /* CalculatorBrain.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
